@@ -7,6 +7,6 @@ def announce(hello):
 
 @announce
 def h ():
-    print("hello go on function wrapper")
+    print("hello go on middel function wrapper")
 
 h()
