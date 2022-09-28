@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>serch</title>
-</head>
-<body>
-    <script>
-        function search()
-        {
-            alert("hashari hasti?");
-        }
-    </script>
-<button onclick="search()">mano bemal</button>
+    <head>
+        <title>Search</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    </head>
+    <body>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="image.html">Image Search</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="advanced.html">Advanced Search</a>
+            </li>
+          </ul>
+        <img src="google.png" alt="Google Image" id="image">
     <form action="https//https://www.google.com/search" method="get">
-        <input autocomplete="off" autofocus name="p" placeholder="your search" type="text">
+        <input class="search-input" autocomplete="off" autofocus name="p" placeholder="your search" type="text">
 
-        <input type="submit"> 
+        <div class="d-flex justify-content-center">
+            <input class="btn btn-light" type="submit" value="Google Search">
+            <input class="btn btn-light" type="submit" value="I'm Feeling Lucky" name="btnI">
+        </div>
+    </form>
 </body>
 </html>
