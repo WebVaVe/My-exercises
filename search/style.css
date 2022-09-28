@@ -9,7 +9,7 @@
     display: flex;
     border: 1px solid #dfe1e5;
     box-shadow: none;
-    border-radius: 24px;
+    border-radius: 18px;
     z-index: 3;
     height: 44px;
     margin: 0 auto;
@@ -48,7 +48,7 @@ nav > ol{
     text-align: center;
 }
 
-.a_ref{
+.links{
     color: black;
     text-decoration: none;
     justify-content: space-around;
@@ -58,7 +58,7 @@ nav > ol{
     margin-top: 70px;
 }
 
-#title-advanced{
+#advancedtitle{
     color: darkred;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -82,12 +82,12 @@ nav > ol{
     margin-bottom: 20px;
 }
 
-.advanced-input{
+.inputadvanced{
     width: 40%;
     text-align: left;
 }
 
-.text-advanced{
+.txadvanced{
     width: 200px;
     justify-content: center;
 }
